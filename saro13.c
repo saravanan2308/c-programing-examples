@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main(){
 	int n;
-	printf("enter a number:");
+	printf("Enter a number:");
 	scanf("%d",&n);
-	printf("last digit = %d\n",n%10);
+	printf("square = %d\n",n*n);
 	return 0;
 }
